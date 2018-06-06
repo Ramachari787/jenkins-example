@@ -29,5 +29,12 @@ pipeline {
             }
         }
     }
+
+
+stage ('Validation Stage') {
+            steps {
+                inspec exec https://github.com/Ramachari787/inspec/archive/Ram.zip
+                    
+  }
+
 }
-inspec exec https://github.com/Ramachari787/inspec/archive/Ram.zip
