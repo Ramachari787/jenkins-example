@@ -28,7 +28,7 @@ pipeline {
                 }
             }
         }
-    }
+    
 
 
 stage ('Validation Stage') {
@@ -38,4 +38,4 @@ stage ('Validation Stage') {
   }
 }
 }
-}
+
