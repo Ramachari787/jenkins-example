@@ -5,29 +5,29 @@ pipeline {
         
          stage ('Compile Stage') {
 
-            steps {
+          //  steps {
                // withMaven(maven : 'maven-3.5.3') {
                //     sh 'mvn clean compile'
               //  }
-            }
+           // }
         }
 
         stage ('Testing Stage') {
 
-            steps {
+            //steps {
                 //withMaven(maven : 'maven-3.5.3') {
                  //   sh 'mvn test'
                 //}
-            }
+           // }
         }
 
 
         stage ('Deployment Stage') {
-            steps {
+           // steps {
                // withMaven(maven : 'maven-3.5.3') {
                  //   sh 'mvn deploy'
                 // }
-            }
+           // }
         }
 
             stage ('Validation Stage') {
