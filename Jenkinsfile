@@ -7,7 +7,7 @@ pipeline {
            // datas = readYaml file: "manifest.yml"
        // }
   // }
-   stages {
+  // stages {
         
        //  stage ('Compile Stage') {
        // stage('Central Build') {
@@ -25,4 +25,4 @@ pipeline {
     }
 }
 }
-}
+//}
