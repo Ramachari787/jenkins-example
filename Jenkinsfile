@@ -15,7 +15,7 @@ pipeline {
             //when { branch 'master' }
             // data = readYaml file: "config.yaml"
       //  }
-       stage('Read YAML file') {
+       stage ('Read YAML file') {
         steps {
             when { branch 'master' }
             script{ datas = readYaml (file: 'config.yaml') }
