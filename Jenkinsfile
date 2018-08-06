@@ -1,13 +1,13 @@
 
 pipeline {
-   // agent {
+   agent {
       //  node {
            // label 'lsrv9557.linux.rabobank.nl'
            // customWorkspace '/appl/jenkins/workdir'
            // datas = readYaml file: "manifest.yml"
        // }
   // }
-   // stages {
+   stages {
         
        //  stage ('Compile Stage') {
        // stage('Central Build') {
@@ -24,5 +24,5 @@ pipeline {
         }
     }
 }
-//}
-//}
+}
+}
