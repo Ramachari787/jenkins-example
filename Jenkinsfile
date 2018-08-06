@@ -1,8 +1,1 @@
-@Library('wolox-ci') _
-
-node {
-
-  checkout scm
-
-  woloxCi('.woloxci/config.yaml');
-}
+mydata = readYaml file: "config.yml"
