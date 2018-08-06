@@ -1,0 +1,16 @@
+dev:
+      parameters:
+         neoaccount:'Ramadev'
+         neoaccount:'Ramadev'
+         neoaccount:'Ramadev'
+master:
+      parameters:
+         neoaccount:'Ramamaster'
+         neoaccount:'Ramadev'
+         neoaccount:'Ramadev'
+      
+rel:
+      parameters:
+        neoaccount:Ramarel
+        neoaccount:'Ramadev'
+        neoaccount:'Ramadev'
