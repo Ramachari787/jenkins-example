@@ -1,7 +1,7 @@
 
 pipeline {
-    agent {
-        node {
+   // agent {
+      //  node {
            // label 'lsrv9557.linux.rabobank.nl'
            // customWorkspace '/appl/jenkins/workdir'
            // datas = readYaml file: "manifest.yml"
@@ -24,5 +24,5 @@ pipeline {
         }
     }
 }
-}
-}
+//}
+//}
