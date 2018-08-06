@@ -1,10 +1,12 @@
-      
 
-//import org.yaml.snakeyaml.Yaml
-readTrusted 'config.yaml'
 pipeline {
-    agent any
-
+    agent {
+        node {
+           // label 'lsrv9557.linux.rabobank.nl'
+           // customWorkspace '/appl/jenkins/workdir'
+           // datas = readYaml file: "manifest.yml"
+        }
+   }
    // stages {
         
        //  stage ('Compile Stage') {
@@ -21,4 +23,6 @@ pipeline {
 
         }
     }
+}
+}
 }
