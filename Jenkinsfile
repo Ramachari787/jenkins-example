@@ -1,9 +1,19 @@
+
+@Grab('org.yaml:snakeyaml:1.17')
+import org.yaml.snakeyaml.Yaml
+readTrusted 'config.yaml'
 pipeline {
     agent any
 
     stages {
         
        //  stage ('Compile Stage') {
+        stage('Central Build') {
+            agent any
+            when { branch 'master' }
+             data = readYaml file: "config.yaml"
+        }
+             
 
           //  steps {
                // withMaven(maven : 'maven-3.5.3') {
